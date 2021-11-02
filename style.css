@@ -1,0 +1,92 @@
+.hero-section h1 {color: goldenrod;
+                  /* margin: auto 75px; */
+                  /* text-align: center; */
+                /* border: red solid 1px;} */}
+
+.hero-section {
+  /* background-image: url(images/dean-pugh-C8NDn4xk9zs-unsplash.jpg); */
+  /* background-image: url(images/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg ); */
+  /* background-image: url(images/fatos-bytyqi-Agx5_TLsIf4-unsplash.jpg); */
+  background:linear-gradient(
+    rgba(0, 46, 49, 0.65), 
+    rgba(0, 46, 49, 0.65)
+  ), url(images/thisisengineering-raeng-iQqRM0XJvn8-unsplash.jpg);
+  /* background-image: url(images/luca-bravo-alS7ewQ41M8-unsplash.jpg); */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  color: goldenrod;
+  text-align: center;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center!important;
+}
+
+.flex-justify{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center!important;
+}
+
+.hero-title {
+  font-size: 1.75em;
+}
+
+.content {
+  /* padding: 16px; */
+}
+
+.accordion-body {
+  padding: 2em 6em;
+  }
+
+  .link-div{
+    margin: 1.2em .2em;
+  }
+
+.card {
+  margin: 3em;
+}
+
+.projects-wrapper {
+  border: goldenrod 2px solid;
+}
+.about-section{
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-cards {
+  border: red solid 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.navbar {
+  background-color: #002E31 !important;
+  width: 100%;
+}
+
+/* .navbar {
+  background-color: #73d1d8 !important;
+} */
+
+.navbar-brand { color: goldenrod !important;
+                padding-left: 1em;
+              }
+
+.navbar li a{
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}

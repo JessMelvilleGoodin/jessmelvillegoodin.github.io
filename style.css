@@ -25,9 +25,30 @@
 }
 
 .flex-justify{
+  text-align: center;
   display: flex !important;
   flex-direction: column;
   justify-content: center!important;
+}
+
+.home-body {
+  margin: 1em 10%;
+}
+
+.center-video {
+  margin: 0 auto;
+}
+
+.proj-btn {
+  border-color: rgba(0, 46, 49);
+  color:rgba(0, 46, 49);
+  margin: 1em; 
+}
+.proj-btn:hover{
+  border-color: rgba(0, 46, 49);
+  background-color:rgba(0, 46, 49);
+  color:white;
+  margin: 1em; 
 }
 
 .hero-title {
@@ -51,7 +72,7 @@
 }
 
 .projects-wrapper {
-  border: goldenrod 2px solid;
+  /* border: goldenrod 2px solid; */
 }
 .about-section{
   display: flex;
@@ -62,7 +83,8 @@
 }
 
 .project-cards {
-  border: red solid 2px;
+  /* background-color: rgb(255, 253, 248); */
+  /* border: rgb(189, 215, 216) solid 1px;  */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -89,4 +111,17 @@
 
 .nav-link {
   color: white !important;
+}
+
+.accordion-button{
+  color:#002E31 ;
+}
+
+.accordion-button:not(.collapsed){
+  color:#002E31 ;
+  background-color: rgb(189, 215, 216);
+}
+
+.accordion-button:focus {
+  border-color: rgb(185, 29, 172);
 }

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>JessMelvilleGoodin</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style.scss">
@@ -14,20 +14,32 @@
   <!-- Boostsrap Responsive nav 2 -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Jess M. Goodin</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="/index.html">Jess M. Goodin</a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
+
+
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <div class="link-div">
+              <a href="https://github.com/JessMelvilleGoodin">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+            </div>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <div class="link-div">
+              <a href="https://www.linkedin.com/in/jess-melville-goodin/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+            </a>
+              </div>
           </li>
         </ul>
       </div>
@@ -43,8 +55,10 @@
     <p class="lead">Python | Django | Javascript | React</p>
   </div>
   
+  <!-- BODY -->
+  <div class="container-fluid px-3 "></div>
     <!-- Accordian items -->
-    <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion home-body" id="accordionPanelsStayOpenExample" accordion-button-focus-border-color="red">
       <!-- ABOUT SECTION -->
       <div class="accordion-item" class="projects-wrapper">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -73,16 +87,18 @@
           <div class="accordion-body">
             <h3 class="accordian-headline">Let's Connect</h3>
             <div class="link-div">
+              <a href="https://github.com/JessMelvilleGoodin">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
               </svg>
-              <a>Visit my Github</a>
+              Visit my Github</a>
             </div>
             <div class="link-div">
+              <a href="https://www.linkedin.com/in/jess-melville-goodin/">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
               </svg>
-              <a>My LinkedIn Profile</a>
+              My LinkedIn Profile</a>
             </div>
             <div class="link-div">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-pdf-fill" viewBox="0 0 16 16">
@@ -106,38 +122,78 @@
           <div class="accordion-body">
             <!-- PROJECTS -->
             <div class="projects-wrapper"> 
-              <h4>Projects</h4>
               <div class="project-cards">
                 <!-- Project #1 -->
                 <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="/images/appreciation-full-dashboard.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Appreciation Notes</h5>
+                    <p class="card-text">Appreciation Notes is a group project that I crontributed to during my education at Code Platoon. Using React and Django,my group created this app to help people easily share their gratitude with others. We provide prompts for inspiration, as well as data visualizations and achievement trophies to promote a habit of gratitude.</p>
+                    <ul>
+                      <p>Tech Stack</p>
+                      <li>Python</li>
+                      <li>Django REST Framework</li>
+                      <li>JavaScript</li>
+                      <li>React</li>
+                      <li>Heroku</li>
+                      <li>APIs: Azure Text analysis, Twilio SMS and email messaging</li>
+                    </ul>
+                    <!-- <a href="/portfolio-appreciation.html" class="btn proj-btn">More Info</a> -->
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+
+
+                    <a href="https://github.com/JessMelvilleGoodin/cplt-group-frontend" class="btn proj-btn">Frontend Code Repo</a>
+                    <a href="https://github.com/JessMelvilleGoodin/cplt-group-backend" class="btn proj-btn">Backend Code Repo</a>
+                    <a href="https://appreciation-notes.herokuapp.com/" class="btn proj-btn">Live Demo</a>
                   </div>
                 </div>
           
                 <!-- Project #2 -->
                 <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="/images/milspofan-recspage.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">MilspoFAN Recommendations and Membership Manager</h5>
+                    <p class="card-text">The Military Spouse Fine Artist Network Recommendations and Membership Manager App is the personal project that I developed independently during my education at Code Platoon. This is the first full-stack app that I created. </p>
+                      <p>Using React and Django, I created a simple app that will allow MilspoFAN organization admins to invite members to create an account, keep their profile privte or share it with other logged-in members, and contribute recommendation based on their experiences living in different places.</p>
+                    <ul>
+                      <p>Tech Stack</p>
+                      <li>Python</li>
+                      <li>Django REST Framework</li>
+                      <li>JavaScript</li>
+                      <li>React</li>
+                      <li>Heroku</li>
+                    </ul>
+
+                    <a href="https://github.com/JessMelvilleGoodin/MilspoFAN-Map/tree/main/milspofan-frontend" class="btn proj-btn">Frontend Code Repo</a>
+                    <a href="https://github.com/JessMelvilleGoodin/MilspoFAN-Map/tree/main/milspofan_project" class="btn proj-btn">Backend Code Repo</a>
+                    <a href="https://afternoon-brushlands-61174.herokuapp.com/" class="btn proj-btn">Live Demo</a>
                   </div>
                 </div>
           
                 <!-- Project #3 -->
                 <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="/images/portfolio-site-home.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Jess M Goodin Portfolio Site</h5>
+                    <p class="card-text">This is a quick site that I developed to showcase my Software Development projects</p>
+                      <p>This site uses HTML, CSS with Bootstrap, and is hosted on GitHub. </p>
+                    <ul>
+                      <p>Tech Stack</p>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Bootstrap</li>
+                      <li>GitHub</li>
+                    </ul>
+
+                    <a href="https://github.com/JessMelvilleGoodin/MilspoFAN-Map/tree/main/milspofan-frontend" class="btn proj-btn">Frontend Code Repo</a>
+                    <a href="https://github.com/JessMelvilleGoodin/MilspoFAN-Map/tree/main/milspofan_project" class="btn proj-btn">Backend Code Repo</a>
+                    <a href="https://afternoon-brushlands-61174.herokuapp.com/" class="btn proj-btn">Live Demo</a>
                   </div>
                 </div>
-              </div>
   
       </div>
           </div>
@@ -145,18 +201,27 @@
       </div>
     </div>
   
+  <!-- Video Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Appreciation Notes App: Video Demo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <video width="90%" controls class="center-video">
+          <source src="AppreciationAppDemo.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   
-  
-    <!-- BODY -->
-    <div class="container-fluid px-3">
-      <!-- HERO -->
-      <h1>bootstrap Jess</h1>
-      
-      <!-- ABOUT -->
-  
-      
-  
-      <!-- CONTACT -->
       
     </div>
   

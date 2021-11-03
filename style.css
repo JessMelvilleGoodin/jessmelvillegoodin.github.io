@@ -92,6 +92,14 @@
 
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.no-bullet {
+  list-style: none
+}
+
 .navbar {
   background-color: #002E31 !important;
   width: 100%;

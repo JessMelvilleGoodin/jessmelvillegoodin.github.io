@@ -1,3 +1,20 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.helvetica {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bold {
+  font-weight: 300;
+}
+
+.underline {
+  text-decoration: underline solid goldenrod 1px;
+
+}
+
 .hero-section h1 {color: goldenrod;
                   /* margin: auto 75px; */
                   /* text-align: center; */
@@ -71,12 +88,17 @@
   margin: 3em;
 }
 
+.rounded-img img{
+  border-radius: 15%;
+  margin: 0 2em;
+}
+
 .projects-wrapper {
   /* border: goldenrod 2px solid; */
 }
 .about-section{
   display: flex;
-  max-width: 600px;
+  /* max-width: 600px; */
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
@@ -98,6 +120,26 @@
 
 .no-bullet {
   list-style: none
+}
+
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.cent-col-container {
+  max-width: fit-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.flex-one {
+  flex-grow: 1;
+}
+
+.flex-two {
+  flex-grow: 2;
 }
 
 .navbar {
@@ -132,4 +174,28 @@
 
 .accordion-button:focus {
   border-color: rgb(185, 29, 172);
+}
+
+.profile-image img {
+  max-width: 150px;
+}
+
+.profile-text {
+  max-width: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.golden{
+  color: goldenrod;
+}
+
+.green-bg {
+  background-color: #002E31 
 }

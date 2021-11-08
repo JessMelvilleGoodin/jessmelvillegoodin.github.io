@@ -10,9 +10,9 @@ body {
   font-weight: 300;
 }
 
-.underline {
-  text-decoration: underline solid goldenrod 1px;
-
+.underline-gold {
+  text-decoration: underline solid goldenrod 2px;
+  text-underline-position: under;
 }
 
 .hero-section h1 {color: goldenrod;
